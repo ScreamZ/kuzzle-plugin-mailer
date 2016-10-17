@@ -1,0 +1,10 @@
+{
+  "from": {
+    "name": "Harvey Specter",
+    "address": "hspecter@dummy.com"
+  },
+  "to": "johnsnow@gmail.com",
+  "subject": "Hello ✔",
+  "text": "Hello world",
+  "html": "<p>This is HTML text.</p>"
+}

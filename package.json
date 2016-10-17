@@ -1,0 +1,38 @@
+{
+  "name": "kuzzle-plugin-mailer",
+  "version": "1.0.0",
+  "description": "Send e-mails through a custom Kuzzle controller.",
+  "author": {
+    "name": "Andréas 'ScreamZ' Hanss",
+    "url": "https://github.com/ScreamZ"
+  },
+  "main": "./src/mailer.js",
+  "pluginInfo": {
+    "defaultConfig": {
+      "smtpConfig": {},
+      "fromContact": "\"Kuzzle Plugin mailer\" <no-reply@kuzzle.com>"
+    }
+  },
+  "dependencies": {
+    "nodemailer": "^2.6.4"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/ScreamZ/kuzzle-plugin-mailer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ScreamZ/kuzzle-plugin-mailer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScreamZ/kuzzle-plugin-mailer/issues"
+  },
+  "directories": {
+    "lib": "./src",
+    "example": "./examples"
+  },
+  "keywords": [
+    "email",
+    "kuzzle",
+    "mailer",
+    "plugin"
+  ]
+}
